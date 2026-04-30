@@ -29,4 +29,16 @@
 		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>mmlib</name>
+			<type>2</type>
+			<location>D:/Projekte/balancer_robot_main/balancer_sw/mmlib</location>
+		</link>
+		<link>
+			<name>mmnrf24lib</name>
+			<type>2</type>
+			<location>D:/Projekte/balancer_robot_main/balancer_sw/mmnrf24lib</location>
+		</link>
+	</linkedResources>
 </projectDescription>
