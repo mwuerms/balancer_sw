@@ -1,0 +1,6 @@
+[submodule "mmnrf24lib"]
+	path = mmnrf24lib
+	url = git@github.com:mwuerms/mmnrf24lib.git
+[submodule "mmlib"]
+	path = mmlib
+	url = git@github.com:mwuerms/mmlib.git
