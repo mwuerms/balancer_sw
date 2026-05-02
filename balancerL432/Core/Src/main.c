@@ -27,7 +27,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "../../../mmnrf24lib/nrf24.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -99,6 +99,9 @@ int main(void)
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
   can_start_motor_srv();
+
+  nrf24_init(nRF24_ROLE_PERIPHERIAL);
+  nrf24_open();
 
   /* USER CODE END 2 */
 
